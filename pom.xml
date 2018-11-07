@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.hup.common</groupId>
-    <artifactId>bom</artifactId>
+    <groupId>com.hup</groupId>
+    <artifactId>common-bom</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
@@ -45,9 +45,9 @@
 
     <properties>
         <!-- spring-boot spring-cloud -->
-        <spring-boot.version>2.0.4.RELEASE</spring-boot.version>
-        <spring-cloud.version>Finchley.SR1</spring-cloud.version>
-        <spring-boot-maven-plugin.version>2.0.1.RELEASE</spring-boot-maven-plugin.version>
+        <spring-boot.version>2.1.0.RELEASE</spring-boot.version>
+        <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+        <spring-boot-maven-plugin.version>2.1.0.RELEASE</spring-boot-maven-plugin.version>
 
 
         <!-- datasource -->
